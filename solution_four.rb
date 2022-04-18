@@ -26,6 +26,8 @@ def solution4(vetorA, vetorB)
   vetorC
 end
 
+puts solution4([1,2,3,4,2.5,7,8,9],[2.5,9,4,9.5])
+
 =begin
 Questão 4) Reescreva o trecho de código destacado em amarelo abaixo para fazer com que o método
 
