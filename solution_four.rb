@@ -29,6 +29,8 @@ def solution4(vetorA, vetorB)
       end
     end
   end
+  puts checked
+  puts vetorC
   vetorC
 end
 
