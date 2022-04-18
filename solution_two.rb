@@ -1,4 +1,15 @@
-
+def find_somas(arr, k)
+  checked = Set.new  
+  arr = arr.sort.uniq
+  
+  arr.each do |a|
+    arr.each do |b|
+      checked.add([a,b]) if ( (a+b) == k )
+    end
+  end
+  
+  checked
+end
 
 =begin
 Escreva um método Ruby que receba um array de números ordenados de forma ascendente e
