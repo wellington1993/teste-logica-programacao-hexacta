@@ -18,10 +18,10 @@ def solution3(p, m)
   ('%1.20f' % result).to_f
 end
 
-solution3(0.999999999999, 0)
-solution3(0.999999999999, 1000)
-solution3(0.999999999999, 1000000)
-solution3(0.999999999999, 1000000000)
+puts solution3(0.999999999999, 0)
+puts solution3(0.999999999999, 1000)
+puts solution3(0.999999999999, 1000000)
+puts solution3(0.999999999999, 1000000000)
 # Observacao, achei os exemplos de potenciacao pessimos
 
 =begin
