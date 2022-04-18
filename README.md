@@ -36,6 +36,7 @@ Escreva um algoritmo eficiente para o problema descrito acima respeitando as seg
 * N é um inteiro dentro do intervalo (1..100000);
 * cada elemento do array vetor é um inteiro dentro do intervalo (-1000000..1000000).
 
+#### https://github.com/wellington1993/teste-logica-programacao-hexacta/blob/main/solution_one.rb 
 ---
 
 ### Questão 2) Escreva um método Ruby que receba um array de números ordenados de forma ascendente e
@@ -44,6 +45,8 @@ números deste array cuja a soma é igual a x.
 
 Exemplo: Dado um array = [-2, -1, 0, 2, 4, 7, 8, 9, 9] e x = 8 como entrada, a resposta do seu algoritmo deverá
 ser um array [[-1, 9], [0, 8], [4, 4]] (não precisando ser necessariamente nesta ordem)
+
+#### https://github.com/wellington1993/teste-logica-programacao-hexacta/blob/main/solution_two.rb
 
 ---
  
@@ -67,6 +70,8 @@ exponenciação nativa do Ruby e que seja computacionalmente eficiente. Por exem
 * solution3 0.999999999999, 1000 = 0.9999999990000221
 * solution3 0.999999999999, 1000000 = 0.9999990000226197
 * solution3 0.999999999999, 1000000000 = 0.9990005219311262
+
+#### https://github.com/wellington1993/teste-logica-programacao-hexacta/blob/main/solution_three.rb
 
 ---
 
@@ -97,3 +102,6 @@ end
   return result
 end
 ```
+#### https://github.com/wellington1993/teste-logica-programacao-hexacta/blob/main/solution_four.rb
+
+---
