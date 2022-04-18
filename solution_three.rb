@@ -7,7 +7,7 @@ def solution3(p, m)
   if m == 0
     result = 1
   elsif (m%2 == 0)
-    if (n == 2)
+    if (m == 2)
       result = m*m
     else
       result = solution3(p*p, m/2)
