@@ -1,15 +1,18 @@
 # você pode usar os comandos puts ou print para fins de debug, ex.
 # print "$var definido\n" if $var
 
-def solution3(m, p)
+# m^p
+def solution3(m, p, x=0)
+  result = 0
   if p == 1
-    return m
+    result = m
   elsif p == 0
-    return 1
+    result = 1
   else
-    m = m * solution3(m, p-1)
-    return m
+    result = solution3(m.to_f, p-1.to_f)
   end
+  result = result.to_f * x.to_f if x > 0
+  '%1.20f' % result
 end
 
 solution3(0.999999999999, 0)
