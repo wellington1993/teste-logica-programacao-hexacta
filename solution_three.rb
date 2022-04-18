@@ -2,17 +2,16 @@
 # print "$var definido\n" if $var
 
 # m^p
-def solution3(m, p, x=0)
+def solution3(p, m)
   result = 0
-  if p == 1
-    result = m
-  elsif p == 0
+  if m == 0
     result = 1
+  elsif (m%2 == 0)
+    result = solution3(p*p, m/2)
   else
-    result = solution3(m.to_f, p-1.to_f)
+    result = p * solution3(p, m-1)
   end
-  result = result.to_f * x.to_f if x > 0
-  '%1.20f' % result
+  ('%1.20f' % result).to_f
 end
 
 solution3(0.999999999999, 0)
