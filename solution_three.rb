@@ -13,7 +13,7 @@ def solution3(p, m)
       result = solution3(p*p, m/2)
     end
   else
-    result = solution3(p, m-1)
+    result = p * solution3(p, m-1)
   end
   ('%1.20f' % result).to_f
 end
