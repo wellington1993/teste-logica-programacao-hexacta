@@ -9,7 +9,10 @@ def solution4(vetorA, vetorB)
       unless checked.include?([a,b])
         checked.add([a,b])
         checked.add([b,a])
-        vetorC << a if (a == b)
+        if (a == b)
+          vetorC << a 
+          break
+        end
       end
     end
   end
@@ -19,7 +22,10 @@ def solution4(vetorA, vetorB)
       unless checked.include?([b,a])
         checked.add([b,a])
         checked.add([a,b])
-        vetorC << b if (b == a)
+        if (b == a)
+          vetorC << b 
+          break
+        end
       end
     end
   end
