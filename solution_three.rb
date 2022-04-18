@@ -2,8 +2,21 @@
 # print "$var definido\n" if $var
 
 def solution3(m, p)
-  # escreva o seu código Ruby
+  if p == 1
+    return m
+  elsif p == 0
+    return 1
+  else
+    m = m * solution3(m, p-1)
+    return m
+  end
 end
+
+solution3(0.999999999999, 0)
+solution3(0.999999999999, 1000)
+solution3(0.999999999999, 1000000)
+solution3(0.999999999999, 1000000000)
+# Observacao, achei os exemplos de potenciacao pessimos
 
 =begin
 de forma que o método solution3(p, m), ao receber um inteiro m (sendo 1 <= m <= 10^9) e um valor float
