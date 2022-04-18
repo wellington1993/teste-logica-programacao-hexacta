@@ -1,7 +1,7 @@
 # você pode usar os comandos puts ou print para fins de debug, ex.
 # print "$var definido\n" if $var
 
-# m^p x
+# m^p x^n
 def solution3(p, m)
   result = 0
   if m == 0
