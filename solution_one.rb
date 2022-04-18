@@ -12,9 +12,13 @@ def solution1(vetor)
       maior = atual 
     end
   end
+  puts maior
   return maior  
 end
 
+solution1([1, 3, 6, 4, 1, 2])
+solution1([1, 2, 3])
+solution1([-1, -3])
 
 =begin
 de forma que, ao receber um array vetor com N valores inteiros, o método solution1(vetor) retorne o
