@@ -1,6 +1,6 @@
-# teste-logica-programacao-exacta
+# Teste Lógica Programacao Hexacta
 
-Teste de Lógica de Programação – Hexacta – Remoto
+## Teste de Lógica de Programação – Hexacta – Remoto
 
 Instruções: Este teste remoto consiste de quatro problemas para serem codificados em
 Ruby. Todos são testes de lógica, não demandando conhecimento aprofundado da
@@ -11,17 +11,21 @@ mande suas dúvidas por escrito que responderemos o mais breve possível. As res
 poderão ser enviadas por e-mail ou disponibilizadas para consulta no seu GitHub pessoal.
 Boa sorte!
 
-Questão 1) Complete o código Ruby abaixo:
+### Questão 1) Complete o código Ruby abaixo:
 
-# você pode usar os comandos puts ou print para fins de debug, ex.
+você pode usar os comandos puts ou print para fins de debug, ex.
 
-# print "$var definido\n" if $var
+```php
+print "$var definido\n" if $var
+```
 
+```ruby
 def solution1(vetor)
-
-# escreva o seu código Ruby
-
+  # escreva o seu código Ruby
 end
+```
+
+
 de forma que, ao receber um array vetor com N valores inteiros, o método solution1(vetor) retorne o
 menor número inteiro positivo (maior que 0) que não esteja presente em vetor. Por exemplo,
 • dado vetor = [1, 3, 6, 4, 1, 2], o método deve retornar 5;
