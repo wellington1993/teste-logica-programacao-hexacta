@@ -8,12 +8,12 @@ def solution3(p, m)
     result = 1
   elsif (m%2 == 0)
     if (m == 2)
-      result = m*m
+      result = p*p
     else
       result = solution3(p*p, m/2)
     end
   else
-    result = p * solution3(p, m-1)
+    result = solution3(p, m-1)
   end
   ('%1.20f' % result).to_f
 end
